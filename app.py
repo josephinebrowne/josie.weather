@@ -51,7 +51,7 @@ print("☀️ UV Index:", uv)
 print("🔥 Maximum Temperature:", maxtemp, "°C,")
 print("❄️ Minimum Temperature:", mintemp, "°C")
 
-print("Average Temperature:" average)
+print("Average Temperature:" average, "°C")
 
 
 # Convert strings into integers that can be understood in the if/else statement
@@ -70,17 +70,11 @@ else:
    print("🧣 Wear a warm jacket and bundle up!")
 
 
-# more detailed elif statement using and
-
-
-
 
 # print 'bring an umbreella' if the current weather code is in the array of my chosen rain codes in rain.py
 if umbrella_rec(weather_code):
     print("☔ Bring an umbrella.")
 
-
-#if umbrella_rec(weather_code):
 
 
 # print wear sunscreen if the uv index is over 7
