@@ -61,7 +61,6 @@ def describe_weather(code): # code represents a key in the weathercodelist dicti
     return weathercodelist.get(code)  
     
 # .get() "returns the value associated with a given key" (GeeksforGeeks, 2026a)
-# returns the corresponding value for the weather code returned from app.py from the weathercodelist dictionary (Matthes, 2023, ch. 6)
 
 
 
