@@ -19,13 +19,13 @@ forecast = data["weather"][0]
 
 
 # access individual values from the response, and store them in variables (Pythons Py, 2026)(Sarthakbcomp, 2026)
-temp = condition["temp_C"] # return temperature in celcius and stor in in a variable
-humidity = condition["humidity"] # humidity retrieves the humidity for current_condition and stores it in a variable
-weather_code = condition["weatherCode"] # return a code relating to the current weather condition and store it in weather_code
-uv = condition["uvIndex"] # return the current UV index
+temp = condition["temp_C"] 
+humidity = condition["humidity"] 
+weather_code = condition["weatherCode"]
+uv = condition["uvIndex"] 
 
 
-# access the average temp, and the minimum and maximum temp from the "weather" section of the json response (Borck, 2025)
+# access the average, minimum and maximum temp 
 maxtemp = forecast["maxtempC"]
 mintemp = forecast["mintempC"]
 average = forecast["avgtempC"]
