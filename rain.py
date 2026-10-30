@@ -7,7 +7,7 @@ rain_codes = [176, 179, 182, 185, 200, 230, 263,
 
 # check to see if the current weather code is in rain_codes list
 
-# code is the parameter name for the current numberical weather code that is returned from app.py, 
+# code is the parameter name for the current weather code that is returned from app.py, 
 # when umbrella_rec(weather_code) is run in app.py, code is assigned the value of the current numerical weather code
 def umbrella_rec(code):
    code = int(code) # turn code into an integer so it can be compareed
