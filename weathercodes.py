@@ -54,13 +54,12 @@ weathercodelist = {
 
 
 # Define a function that returns the weather description (value) for the numerical weather code (key)
-# when describe_weather(weather_code) is run in app.py, it assigns 'code' the value of the current numerical weather code
+# when describe_weather(weather_code) is run in app.py, 'code' is assigned the value of the current weather code
 
-def describe_weather(code): # code represents a key in the weathercodelist dictionary, eg "113"
+def describe_weather(code): 
     code = int(code)   # int() makes sure the key is returned as an integer
     return weathercodelist.get(code)  
     
 # .get() "returns the value associated with a given key" (GeeksforGeeks, 2026a)
-
-
+# get the corresponding value for the current weather code from the weathercodelist dictionary 
 
