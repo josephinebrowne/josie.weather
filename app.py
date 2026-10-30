@@ -50,7 +50,6 @@ print("🌡️ Current Temparature for", city, ":", temp, "°C")
 print("💧 Humidity:", humidity, "%")
 print("🌦️ Weather Description:", weatherdes)
 print("☀️ UV Index:", uv)
-print(icon)
 
 
 # create a variable for the moon icon that changes based on the moon phase
