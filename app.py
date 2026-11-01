@@ -97,7 +97,7 @@ humidity = int(humidity)
 
 
 # Give outfit suggestion based on the maximum daily temperature using an "if-elif-else Chain" (Matthes, 2023, ch. 5)
-if maxtemp > 20 or humidity > 60:
+if maxtemp > 20 or humidity > 55:
    print("👗 Wear a short-sleeve top and skirt/shorts.")
 elif maxtemp > 17:
    print("👕 Wear a 3/4-sleeve top, or a short sleeve and bring a light cardigan.")
