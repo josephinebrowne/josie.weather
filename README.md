@@ -15,7 +15,7 @@
 
 
 ## Features 
-### weather information:
+### Weather Information:
 * Current temperature in Celsius
 * Humidity
 * UV Index
@@ -23,8 +23,10 @@
 * Current Moon phase
 * Maximum and minimum temperature in Celsius
 * The average temperature in Celsius
-  
 ### Reminders:
 * Clothing suggestions based on the maximum temperature and humidity
 * An umbrella reminder when its raining or rain is nearby
 * Reminder to bring a hat and wear sunscreen when UV is high
+
+## References
+
