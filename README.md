@@ -1,6 +1,6 @@
 # Josie.Weather
-* Josie.Weather is a Python weather app that retrieves current weather conditions and daily forecast information for a city entered by the user. Josie.Weather also provides useful reminders and outfit suggestions based on the weather.
-* Based on the forecast, Josie.Weather provides practical suggestions, including weather-based outfit suggestions, a reminder to bring an umbrella, and a reminder to use sunscreen and wear a hat when the uv is high.
+* Josie.Weather is a Python weather app that retrieves current weather conditions and daily forecast information for a city entered by the user. 
+* Based on the forecast, my program provides practical reminders and suggestions, including weather-based outfit suggestions, a reminder to bring an umbrella, and a reminder to use sunscreen and wear a hat when the uv is high.
  
 
 ## General Information
