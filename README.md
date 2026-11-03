@@ -41,7 +41,10 @@
 * Sarthakbcomp. (2026, October 3). Building a weather API client in python: When your code starts talking to the sky. Medium. https://medium.com/@sarthakb25comp/building-a-weather-api-client-in-python-when-your-code-starts-talking-to-the-sky-f1a8467ce588
 
 ### I used these sources / documentation
+* Borck, M. (2025). fetch-my-weather. GitHub. https://github.com/michael-borck/fetch-my-weather
+* Case Digital. (2023). How To Remove Characters From A String Python [Video]. YouTube. https://www.youtube.com/shorts/dYbU8XIgiYc
 * Chubin, I. (2015). GitHub - chubin/wttr.In: :Partly_sunny: The right way to check the weather - One Line Output. GitHub. https://github.com/chubin/wttr.in
+* Codecademy. (2025). How to remove characters from a string in Python. Codecademy. https://www.codecademy.com/article/remove-characters-from-a-python-string
 * Cotton, R. (2022). Python cheat sheet for beginners. In Datacamp.com. DataCamp. https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet
 * GeeksforGeeks. (2025a). Response.Text python requests. GeeksforGeeks. https://www.geeksforgeeks.org/python/response-text-python-requests/
 * GeeksforGeeks. (2025b, January 20). Weather app in python using tkinter module. GeeksforGeeks. https://www.geeksforgeeks.org/python/weather-app-in-python-using-tkinter-module/
