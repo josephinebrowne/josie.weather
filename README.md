@@ -34,27 +34,27 @@
 
 ## References
 ### Josie.Weather is inspired by the following projects
-Choudhary, M. (2026, February 2). Python fundamentals: Building a weather app with APIs. Medium. https://medium.com/@maeydhaw/python-fundamentals-building-a-weather-app-with-apis-34536395833d
-Flyhigh Tutorials. (2025, November 14). 🌤️ Free: Live weather in 3 lines! (No API key needed!) #Python #coding #programming #tech #weather [Video]. YouTube. https://www.youtube.com/shorts/BbpUBW8Jsaw
-Pythons Py. (2026, July 4). Python py day 15/100 simple python weather app 🌍 | using the requests library and the wttr.In API to fetch [Video]. Facebook. https://www.facebook.com/61590496301949/videos/1850288289689044/
-Rawat, A. (2021, June 11). Forecast weather using python. DEV Community. https://dev.to/ayushi7rawat/forecast-weather-using-python-896
-Sarthakbcomp. (2026, October 3). Building a weather API client in python: When your code starts talking to the sky. Medium. https://medium.com/@sarthakb25comp/building-a-weather-api-client-in-python-when-your-code-starts-talking-to-the-sky-f1a8467ce588
+* Choudhary, M. (2026, February 2). Python fundamentals: Building a weather app with APIs. Medium. https://medium.com/@maeydhaw/python-fundamentals-building-a-weather-app-with-apis-34536395833d
+* Flyhigh Tutorials. (2025, November 14). 🌤️ Free: Live weather in 3 lines! (No API key needed!) #Python #coding #programming #tech #weather [Video]. YouTube. https://www.youtube.com/shorts/BbpUBW8Jsaw
+* Pythons Py. (2026, July 4). Python py day 15/100 simple python weather app 🌍 | using the requests library and the wttr.In API to fetch [Video]. Facebook. https://www.facebook.com/61590496301949/videos/1850288289689044/
+* Rawat, A. (2021, June 11). Forecast weather using python. DEV Community. https://dev.to/ayushi7rawat/forecast-weather-using-python-896
+* Sarthakbcomp. (2026, October 3). Building a weather API client in python: When your code starts talking to the sky. Medium. https://medium.com/@sarthakb25comp/building-a-weather-api-client-in-python-when-your-code-starts-talking-to-the-sky-f1a8467ce588
 
 ### I used these sources / documentation
-Chubin, I. (2015). GitHub - chubin/wttr.In: :Partly_sunny: The right way to check the weather - One Line Output. GitHub. https://github.com/chubin/wttr.in
-Cotton, R. (2022). Python cheat sheet for beginners. In Datacamp.com. DataCamp. https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet
-GeeksforGeeks. (2025a). Response.Text python requests. GeeksforGeeks. https://www.geeksforgeeks.org/python/response-text-python-requests/
-GeeksforGeeks. (2025b, January 20). Weather app in python using tkinter module. GeeksforGeeks. https://www.geeksforgeeks.org/python/weather-app-in-python-using-tkinter-module/
-GeeksforGeeks. (2025c, February 25). Response.Json() python requests. GeeksforGeeks. https://www.geeksforgeeks.org/python/response-json-python-requests/
-GeeksforGeeks. (2026a). Python dictionary GET() method. GeeksforGeeks. https://www.geeksforgeeks.org/python/python-dictionary-get-method/
-GeeksforGeeks. (2026b). Python functions. GeeksforGeeks. https://www.geeksforgeeks.org/python/python-functions/
-Matthes, E. (2023). Python Crash Course. In O’Reilly Online Learning (3rd edition). No Starch Press, New York. https://doi.org/1098156664/1200w630h
-Python Documentation. (2016). 7. Input and output. Python Documentation. https://docs.python.org/3/tutorial/inputoutput.html
-Shahrouz Nikseresht. (2026, February 5). Python Dictionaries Explained Simply (Keys, Values, and Access). DEV Community. https://dev.to/shahrouzlogs/python-dictionaries-explained-simply-keys-values-and-access-2g
-W3School. (n.d.). Python input() function. Www.W3schools.Com. Retrieved September 11, 2026, from https://www.w3schools.com/python/ref_func_input.asp
-W3Schools. (n.d.-a). Python float() function. Www.W3schools.Com. Retrieved October 1, 2026, from https://www.w3schools.com/python/ref_func_float.asp
-W3Schools. (n.d.-b). Python requests get method. Www.W3schools.Com. Retrieved September 10, 2026, from https://www.w3schools.com/python/ref_requests_get.asp
-WorldWeatherOnline. (n.d.). Weather API documentation | WorldWeatherOnline. WorldWeatherOnline. Retrieved October 9, 2026, from https://www.worldweatheronline.com/weather-api/api/docs/weather-icons.aspx
+* Chubin, I. (2015). GitHub - chubin/wttr.In: :Partly_sunny: The right way to check the weather - One Line Output. GitHub. https://github.com/chubin/wttr.in
+* Cotton, R. (2022). Python cheat sheet for beginners. In Datacamp.com. DataCamp. https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet
+* GeeksforGeeks. (2025a). Response.Text python requests. GeeksforGeeks. https://www.geeksforgeeks.org/python/response-text-python-requests/
+* GeeksforGeeks. (2025b, January 20). Weather app in python using tkinter module. GeeksforGeeks. https://www.geeksforgeeks.org/python/weather-app-in-python-using-tkinter-module/
+* GeeksforGeeks. (2025c, February 25). Response.Json() python requests. GeeksforGeeks. https://www.geeksforgeeks.org/python/response-json-python-requests/
+* GeeksforGeeks. (2026a). Python dictionary GET() method. GeeksforGeeks. https://www.geeksforgeeks.org/python/python-dictionary-get-method/
+* GeeksforGeeks. (2026b). Python functions. GeeksforGeeks. https://www.geeksforgeeks.org/python/python-functions/
+* Matthes, E. (2023). Python Crash Course. In O’Reilly Online Learning (3rd edition). No Starch Press, New York. https://doi.org/1098156664/1200w630h
+* Python Documentation. (2016). 7. Input and output. Python Documentation. https://docs.python.org/3/tutorial/inputoutput.html
+* Shahrouz Nikseresht. (2026, February 5). Python Dictionaries Explained Simply (Keys, Values, and Access). DEV Community. https://dev.to/shahrouzlogs/python-dictionaries-explained-simply-keys-values-and-access-2g
+* W3School. (n.d.). Python input() function. Www.W3schools.Com. Retrieved September 11, 2026, from https://www.w3schools.com/python/ref_func_input.asp
+* W3Schools. (n.d.-a). Python float() function. Www.W3schools.Com. Retrieved October 1, 2026, from https://www.w3schools.com/python/ref_func_float.asp
+* W3Schools. (n.d.-b). Python requests get method. Www.W3schools.Com. Retrieved September 10, 2026, from https://www.w3schools.com/python/ref_requests_get.asp
+* WorldWeatherOnline. (n.d.). Weather API documentation | WorldWeatherOnline. WorldWeatherOnline. Retrieved October 9, 2026, from https://www.worldweatheronline.com/weather-api/api/docs/weather-icons.aspx
 
 ## Contact
-josephine.browne@student.uts.edu.au
+* josephine.browne@student.uts.edu.au
