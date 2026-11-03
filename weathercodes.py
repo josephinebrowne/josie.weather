@@ -60,6 +60,5 @@ def describe_weather(code):
     code = int(code)   # int() makes sure the key is returned as an integer
     return weathercodelist.get(code)  
     
-# .get() "returns the value associated with a given key" (GeeksforGeeks, 2026a)
-# get the corresponding value for the current weather code from the weathercodelist dictionary 
+# .get() "returns the value associated with a given key" (GeeksforGeeks, 2026a) from the weathercodelist dictionary 
 
