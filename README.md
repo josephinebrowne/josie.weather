@@ -6,7 +6,7 @@
 * I specifically chose this project challenge, because many of the decisions I make day-to-day are dependent on forecast weather, including what I'm going to wear, and what I’ll bring with me when I’m out of the house.
 * I wanted to create an app that could help me save time in the morning and help me properly prepare for the upcoming daily weather as there have been many times that I have found myself trapped in torrential rain without an umbrella.
 * The service responds with weather data in JSON format, and I use that data to display conditions and make recommendations.
-* I have used the weather API WTTR.in to retrieve data , an open-source, “console-oriented weather forecast service” (chubin, 2015), that can be used without requiring the creation of an API key, and it doesn't require any payment.
+* I have used the weather API Wttr.in to retrieve data. Wttr.in an open-source, “console-oriented weather forecast service” (chubin, 2015), that can be used without requiring the creation of an API key, and it doesn't require any payment.
 
 ## Dependencies
 * My project uses the python library Requests, which allows me to easily send http requests, so I can retrieve data from the wttr.in web server in only a couple lines of code.
