@@ -1,3 +1,6 @@
+
+# import requests, a python library that makes sending http requests easy.
+# An http request is a message sent from an app or program, to a web server, the server processes the request and sends back a reply.
 import requests
 
 # import some sun ascii art!
@@ -6,18 +9,18 @@ import sunsymbol
 # ask user to type in their city
 city = input("Welcome to Josie.Weather! Please enter your city: ") 
 
-# create a variable for the url, ?format=j1 returns weather information in json format
+# create a variable for the url, ?format=j1 returns weather information in json format from wttr.in
 url = f"https://wttr.in/{city}?format=j1"
 
 # retrieve weather data from the wttr.in web server
-# parse the json response object into a python disctionary (Sarthakbcomp, 2026)
+# .json() parses the json response object into a python disctionary (Sarthakbcomp, 2026)
 data = requests.get(url).json() # (Pythons Py, 2026)
 
 
 # enter the "current_condition" part of the dictionary for current weather
 condition = data["current_condition"][0]  # (Pythons Py, 2026)
 
-# enter the weather section of the dictionary, so I can get weather forcasts
+# enter the weather section of the dictionary, so I can get weather forcasts, high, low and average temp 
 forecast = data["weather"][0]
 
 
@@ -27,7 +30,7 @@ humidity = condition["humidity"]
 weather_code = condition["weatherCode"] 
 uv = condition["uvIndex"] 
 
-# access the average temp, and the minimum and maximum temp from the "weather" section of the json response (Borck, 2025)
+# access the average temp, and the minimum and maximum temp, average and moon phase from the "weather" section of the json response (Borck, 2025)
 maxtemp = forecast["maxtempC"]
 mintemp = forecast["mintempC"]
 average = forecast["avgtempC"]
@@ -36,6 +39,7 @@ moon = forecast["astronomy"][0]["moon_phase"]
 
 # import a function from weathercodes.py that converts the numerical weather code into its corresponding description (Matthes, 2023, ch. 10)
 from weathercodes import describe_weather 
+
 
 # create a variable that applies the describe_weather function to the current weather code
 weatherdes = describe_weather(weather_code) 
@@ -48,32 +52,26 @@ from rain import umbrella_rec
 # print the results: temp, weather and humidity 
 print("🌡️ Current Temparature for", city, ":", temp, "°C")
 print("💧 Humidity:", humidity, "%")
-print("🌦️ Weather Description:", weatherdes)
-print("☀️ UV Index:", uv)
+print("🌦️  Weather Description:", weatherdes)
+print("☀️  UV Index:", uv)
+
 
 
 # create a variable for the moon icon that changes based on the moon phase
 if moon == "New Moon":
    moonicon = ("🌑")
-
 if moon == "Waxing Crescent":
    moonicon = ("🌒")
-
 if moon == "First Quarter":
    moonicon = ("🌓")
-
 if moon == "Waxing Gibbous":
    moonicon = ("🌔")
-
 if moon == "Full Moon":
    moonicon = ("🌕")
-
 if moon == "Waning Gibbous":
    moonicon = ("🌖 ")
-
 if moon == "Last Quarter":
    moonicon = ("🌗")
-   
 if moon == "Waning Crescent":
    moonicon = ("🌘")
 
@@ -81,9 +79,10 @@ if moon == "Waning Crescent":
 # print out the moon phase with the icon
 print("Moon Phase:", moon, moonicon)
 
+
 # print minimum and maximum temp
 print("🔥 Maximum Temperature:", maxtemp, "°C,")
-print("❄️ Minimum Temperature:", mintemp, "°C")
+print("❄️  Minimum Temperature:", mintemp, "°C")
 print("Average Temperature:", average)
 
 
@@ -96,7 +95,7 @@ maxtemp = int(maxtemp)
 humidity = int(humidity)
 
 
-# Give outfit suggestion based on the maximum daily temperature using an "if-elif-else Chain" (Matthes, 2023, ch. 5)
+# Give outfit suggestion based on the maximum daily temperature and humidty using a conditional "if-elif-else Chain" (Matthes, 2023, ch. 5)
 if maxtemp > 20 or humidity > 55:
    print("👗 Wear a short-sleeve top and skirt/shorts.")
 elif maxtemp > 17:
@@ -116,8 +115,7 @@ else:
 
 # print wear sunscreen if the uv index is over 5
 if uv > 5:
-   print("⛱️ Wear sunscreen and a hat.")
+   print("⛱️  Wear sunscreen and a hat.")
 else:
    print("")
-
 
